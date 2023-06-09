@@ -12,7 +12,7 @@ const Homepage = () => {
   const [data, setData] = useState([]);
 
 
-  console.log("datazzzzzzz", data)
+  
   useEffect(() => {
     getCardData();
   }, []);
@@ -45,7 +45,7 @@ const Homepage = () => {
           <h2 className='chart-heading'>Meal Cards</h2>
         </div>
         <div className='main-container'>
-          {data.map((val, index) => {
+          { data.length>0 ? data.map((val, index) => {
             return (
               <div className="card-container" key={index}>
                 <div className="card1">
@@ -61,7 +61,7 @@ const Homepage = () => {
                 </div>
               </div>
             )
-          })}
+          }) :<h1 className='no-result' >No  Meal Card Found</h1>}
 
         </div>
       </div>
