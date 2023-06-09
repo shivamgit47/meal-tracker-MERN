@@ -1,6 +1,13 @@
 * {
 	box-sizing: border-box;
 }
+.no-result
+{
+    margin-left: 45%;
+    margin-top: 40px;
+    font-size: 25px;
+    font-style: italic;
+}
 .home-container
 {
 background-color: hsl(204, 37%, 92%);
