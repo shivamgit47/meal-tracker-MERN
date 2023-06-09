@@ -1,0 +1,106 @@
+.food-form-container{
+    
+}
+
+.food-heading{
+    margin-left: 40%;
+    margin-top: 25px;
+}
+.food-input{
+    margin-left: 40%;
+    margin-top: 5px;
+}
+.food-input input{
+    color: black;
+    width: 400px;
+    padding: 5px 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 0px;
+}
+.food-input select{
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+.food-input select option{
+    font-size: 18px;
+}
+.food-input label{
+    font-size: 20px;
+}
+
+.food-input span{
+    font-size: 20px;
+}
+.food-btn input{
+border-radius: 50px;
+padding: 40 25px;
+margin-top: 5px;
+cursor: pointer;
+}
+.fbtn1{
+    background-color: rgb(14, 168, 14);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fbtn2{
+    background-color: rgb(28, 108, 173);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1025px){
+    .food-input{
+        margin-left: 10%;
+    }
+    .food-heading{
+        margin-left: 20%;
+    }
+    .food-input input{
+        color: black;
+        width: 200px;
+    }
+}
+.table-container{
+    
+    overflow: auto;
+}
+.table-parent{
+    
+    margin: 20px;
+    margin-left: 10%;
+}
+.table-parent thead{
+    font-size: 20px;
+}
+.table-parent thead tr th{
+    
+    padding: 10px 8px;
+}
+.table-parent tbody tr td{
+    font-size: 22px;
+    padding: 10px 25px;
+}
+.table-parent tbody tr td button{ color: white;}
+
+.btn-table1{
+    font-size: 20px;
+    background-color: rgb(49, 187, 212);
+    border-radius: 50px;
+    border: 0px;
+    padding: 5px 37px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-table2{
+    font-size: 20px;
+    border-radius: 50px;
+
+    background-color: red;
+    border: 0px;
+    cursor: pointer;
+
+    padding: 5px 25px;
+}

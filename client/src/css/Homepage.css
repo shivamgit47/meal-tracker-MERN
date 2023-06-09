@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+.home-container
+{
+background-color: hsl(204, 37%, 92%);
+
+}
+.chart-area
+{
+    
+    
+    overflow: auto;
+    
+    
+}
+.card-area
+{
+    border: 5px solid red;
+    min-height: 50vh;
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    display: flex;
+}
+.chart-heading-div{
+    
+    align-items: center;
+}
+.chart-heading{
+    font-size: 28px;
+    padding-left: 45%;
+    
+}
+.area-one{
+    overflow: auto;
+}
+.area-two{
+    
+    overflow: auto;
+}

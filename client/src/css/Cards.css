@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.card1 {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.card h2 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.card h5 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.card-preview {
+	background-color: #2A265F;
+	color: #fff;
+	padding: 30px;
+	min-width: 200px;
+}
+.card-preview h2{
+    color: aqua;
+}
+
+.card-preview h4{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.card-list {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+	
+}
+
+.table-list{
+    font-size: 22px;
+    font-weight: bold;
+}
+.table-list td {
+    padding: 5px;
+    background-color: rgb(235, 235, 225);
+    border-radius: 10px;
+}
+
+.btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}

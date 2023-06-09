@@ -1,0 +1,80 @@
+.form-container{
+    
+    width: 100%;
+}
+.form-heading{
+    margin-top: 30px;
+    margin-left: 45%;
+    font-size: 30px;
+}
+.addmeal-container{
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+.meal-input{
+    
+    font-size: 20px;
+    margin-left: 20vh;
+    margin-top: 20px;
+}
+.meal-input select{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(208, 233, 233);
+}
+.meal-input select option{
+    font-size: 20px;
+
+}
+
+.meal-btn
+{
+    margin-left: 20vh;
+align-items: center;
+}
+.meal-btn input{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.meal-btn1{
+    background-color: #38ce;
+    padding: 15px 45px;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.meal-btn2{
+    background-color: rgb(243, 32, 5);
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-left: 30px;
+    border: 0px;
+    cursor: pointer;
+
+}
+.meal-heading-div{
+    margin-top: 40px;
+    align-items: center;
+}
+.meal-heading{
+    font-size: 28px;
+    padding-left: 45%;
+    
+}
+.meal-para{
+    font-size: 20px;
+    padding-left: 30%;
+}
+
+@media (max-width: 509px)
+{
+    .meal-btn2{
+        margin-left: 10px;
+    }
+}

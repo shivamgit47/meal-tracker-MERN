@@ -1,0 +1,277 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #334f6b;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+	
+	
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+/* .main-nav a {
+	color: #27292b;
+	font-size: 18px;
+	font-weight: 600;
+	border: 2px solid red;
+	margin: 5px;
+} */
+
+.main-nav a:hover {
+	color: #03b15a;
+	
+	border: 0px;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.addmeal-btn1{
+	
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 5px;
+	border-radius: 50px;
+	padding: 5px 250px;
+
+}
+.addmeal-btn2{
+	
+	color: #bd0707;
+	font-size: 18px;
+	font-weight: 600;
+
+	margin: 5px;
+	border-radius: 50px;
+
+}
+
+.addmeal-btn3{
+	
+	color: #05608a;
+	
+	font-size: 18px;
+	font-weight: 600;
+	
+	margin: 5px;
+	border-radius: 50px;
+}
+
+.addmeal-btn4{
+	
+	color: #07a9f5;
+	
+	font-size: 18px;
+	font-weight: 600;
+	
+	margin: 5px;
+	border-radius: 50px;
+}
+.addmeal-btn5{
+	
+	color: #046d53;
+	
+	font-size: 18px;
+	font-weight: 600;
+	
+	margin: 5px;
+	border-radius: 50px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+	.addmeal-btn1{
+	
+		color: white;
+		background-color:#3b3b3f ;
+		font-size: 18px;
+		font-weight: 600;
+		margin: 5px;
+		border-radius: 50px;
+		padding: 5px 250px;
+	
+	}
+	.addmeal-btn2{
+		
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 600;
+		background-color: red;
+		border: 2px solid red;
+		margin: 5px;
+		border-radius: 50px;
+	
+	}
+	
+	.addmeal-btn3{
+		
+		color: #ffffff;
+		background-color: rgb(24, 151, 151);
+		font-size: 18px;
+		font-weight: 600;
+		border: 2px solid rgb(24, 151, 151);
+		margin: 5px;
+		border-radius: 50px;
+	}
+	.addmeal-btn4{
+		
+		color: #ffffff;
+		background-color: rgb(36, 102, 102);
+		font-size: 18px;
+		font-weight: 600;
+		border: 2px solid aqua;
+		margin: 5px;
+		border-radius: 50px;
+	}
+	.addmeal-btn5{
+		
+		color: #ffffff;
+		background-color: rgb(9, 100, 175);
+		font-size: 18px;
+		font-weight: 600;
+		border: 2px solid aqua;
+		margin: 5px;
+		border-radius: 50px;
+	}
+	.main-nav a:hover {
+		color: #3e84d3;
+		background-color: #16d2f3;
+		color: #000;
+		border: 0px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.addmeal-btn1{
+	
+		color: white;
+		background-color:#3b3b3f ;
+		font-size: 18px;
+		font-weight: 600;
+		margin: 5px;
+		border-radius: 50px;
+		padding: 5px 250px;
+	
+	}
+	.addmeal-btn2{
+		
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 600;
+		background-color: red;
+		border: 2px solid red;
+		margin: 5px;
+		border-radius: 50px;
+	
+	}
+	
+	.addmeal-btn3{
+		
+		color: #ffffff;
+		background-color: rgb(24, 151, 151);
+		font-size: 18px;
+		font-weight: 600;
+		border: 2px solid rgb(24, 151, 151);
+		margin: 5px;
+		border-radius: 50px;
+	}
+	.addmeal-btn4{
+		
+		color: #ffffff;
+		background-color: rgb(36, 102, 102);
+		font-size: 18px;
+		font-weight: 600;
+		border: 0;
+		margin: 5px;
+		border-radius: 50px;
+	}
+	.addmeal-btn5{
+		
+		color: #ffffff;
+		background-color: rgb(9, 100, 175);
+		font-size: 18px;
+		font-weight: 600;
+		border: 0;
+		margin: 5px;
+		border-radius: 50px;
+	}
+	.main-nav a:hover {
+		color: #055cbe;
+		background-color: #16d2f3;
+		border: 0px;
+	}
+
+}
